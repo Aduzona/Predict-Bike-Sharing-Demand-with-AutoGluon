@@ -92,14 +92,14 @@ hyperparameter_tune_kwargs = {'num_trials':5,'scheduler' : 'local', 'searcher': 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
 
-![model_train_score.png]('screenshots/model_train_score.png')
+![model_train_score.png](screenshots/model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
 ![model_test_score.png](screenshots/model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+As seen above, the model tuned with hyperparameters performed best as it was evaluated with test data, with score of `0.46968`.
 
 ## Reference
 
